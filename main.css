@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.mOpt{
+	background-color: #555555;
+	color: white;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	width: 140px;
+	position: absolute;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	border-bottom: 1px solid silver;
+	font-variant: small-caps;
+}
+
+.mOpt_o{
+	background-color: #777777;
+	color: yellow;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	width: 140px;
+	position: absolute;
+	height: 26px;
+	padding-top: 4px;
+	text-align: center;
+	border-bottom: 1px solid orange;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+.mOpt2{
+	background-color: #555555;
+	color: white;
+	font-family: arial;
+	font-size: 12pt;
+	font-weight: bold;
+	width: 140px;
+	position: absolute;
+	height: 65px;
+	padding-top: 35px;
+	text-align: center;
+	border-bottom: 1px solid silver;
+	font-variant: small-caps;
+}
+
+.mOpt2_o{
+	background-color: #777777;
+	color: yellow;
+	font-family: arial;
+	font-size: 12pt;
+	font-weight: bold;
+	width: 140px;
+	position: absolute;
+	height: 65px;
+	padding-top: 35px;
+	text-align: center;
+	border-bottom: 1px solid orange;
+	font-variant: small-caps;
+	cursor: pointer;
+}
+
+.mTxt{
+	position: absolute;
+	width: 130px;
+	padding: 5px;
+	top: 260px;
+	left: 0;
+	color: #bbbbbb;
+	font-size: 8pt;
+	font-family: arial;
+	text-align: center;
+}
+
+.mTxt2{
+	position: absolute;
+	color: white;
+	font-size: 12pt;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.mTxt3{
+	position: absolute;
+	width: 130px;
+	padding: 5px;
+	top: 540px;
+	left: 0;
+	color: #bbbbbb;
+	font-size: 8pt;
+	font-family: arial;
+	text-align: center;
+}
+
+.mBut{
+	position: absolute;
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	font-variant: small-caps;
+	font-family: arial;
+	width: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mBut_o{
+	position: absolute;
+	background-color: #777777;
+	color: yellow;
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+	border-bottom: 1px solid orange;
+	font-variant: small-caps;
+	font-family: arial;
+	cursor: pointer;
+	width: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dh1{
+	color: white;
+	font-family: arial;
+	font-size: 18pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-bottom: 1px dotted silver;
+}
+
+#floopMenu{
+	color: white;
+	background-color: #333333;
+	border: 2px solid white;
+	padding: 20px;
+	font-family: arial;
+	font-size: 10pt;
+	display: none;
+	position: absolute;
+	left: 200px;
+	top: 60px;
+}
+
+#floopTxt{
+	overflow: auto;
+	padding: 5px;
+}
+
+#menu{
+	display: none;
+	color: white;
+	opacity: 1;
+	position: absolute;
+	left: 200px;
+	top: 60px;
+	background-color: #333333;
+	border: 2px solid white;
+	font-family: arial;
+	font-size: 10pt;
+	margin-top: 5px;
+}
+
+#mleft{
+	float: left;
+	border-right: 1px dotted #666666;
+	padding: 20px;
+}
+
+#mright{
+	float: left;
+	width: 440px;
+	padding: 20px;
+}
+
+.hr1{
+	color: white;
+	border: 1px dotted silver;
+}
+
+.ntb1{
+	background-color: black;
+	font-size: 12pt;
+	font-family: arial;
+	font-weight: bold;
+	padding: 5px;
+	color: lime;
+	border: 1px solid #cccccc;
+}
+
+.ns1{
+	background-color: black;
+	font-size: 10pt;
+	font-family: arial;
+	padding: 5px;
+	color: yellow;
+	border: 1px solid #cccccc;
+}
+
+.dbt1{
+	background-color: #666666;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	font-variant: small-caps;
+	font-size: 10pt;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.dbt1_o{
+	background-color: #999999;
+	color: yellow;
+	font-weight: bold;
+	font-family: arial;
+	font-variant: small-caps;
+	font-size: 10pt;
+	padding: 5px;
+	border: 1px solid #bbbbbb;
+	cursor: pointer;
+}
+
+a:link,a:active,a:visited{
+	color: silver;
+	text-decoration: none;
+}
+
+a:hover{
+	color: silver;
+	text-decoration: none;
+	border-bottom: 1px dotted yellow;
+}
+
+#flTable{
+	color: white;
+	font-size: 10pt;
+	border: 1px solid #555555;
+}
+
+#flTable th{
+	background-color: #444444;
+	color: yellow;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
+
+#flTable td{
+	padding: 3px;
+	border-top: 1px solid #555555;
+	text-align: center;
+}

@@ -1,0 +1,78 @@
+body{
+	font-family: arial;
+	font-size: 10pt;
+	color: black;
+}
+
+h2{
+	font-family: times new roman;
+	font-size: 24pt;
+	font-variant: small-caps;
+	border-bottom: 1px dotted red;
+	color: darkorange;
+}
+
+h3{
+	font-family: times new roman;
+	font-size: 18pt;
+	font-variant: small-caps;
+	border-bottom: 1px dotted red;
+	color: darkorange;
+}
+
+#splash{
+	position: absolute;
+	background-color: #555555;
+	border: 5px solid white;
+	opacity: 0;
+	color: white;
+	width: 500px;
+	height: 400px;
+	padding: 30px;
+}
+
+.splashTitle{
+	font-family: times new roman;
+	font-size: 50pt;
+	font-variant: small-caps;
+	letter-spacing: 10px;
+	color: yellow;
+	text-align: center;
+	border-bottom: 3px dotted #999999;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+#splashBg{
+	position: absolute;
+	background-color: black;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.splashBtn{
+	padding: 10px;
+	background-color: #dddddd;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	border: 3px solid #777777;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.splashBtn:hover{
+	padding: 10px;
+	background-color: white;
+	color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	border: 3px solid #333333;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
